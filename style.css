@@ -1,0 +1,25 @@
+*body{
+	margin:0;
+	padding:0;
+
+/* css variable*/
+:root{/* her we are creating variable and use them later*/
+	--navbar-height:60px;
+}
+#navbar{
+	display:flex;
+	align-items:center;
+	flex-direction: row;
+
+}
+/* navigation logo and image*/
+#logo{
+margin:10px 20px;
+}
+#logo img{
+margin:10px 6px;
+height:56px;
+width:200px;
+border:5px solid red;
+}
+/*navgiation list styling*/
